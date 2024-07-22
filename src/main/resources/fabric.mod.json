@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "despawnfix",
+  "version": "${version}",
+
+  "name": "despawnfixer",
+  "description": "This is a pretty shrimple mod, but it's effect are shrimply resharkable! It fixes mob despawning in 7.2pr2",
+  "authors": [
+    "Bigjango"
+  ],
+
+  "icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "bigjango.despawnfix.DespawnFix"
+    ]
+  },
+  "mixins": [
+      "despawnfix.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.5"
+  }
+}
